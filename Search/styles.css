@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.links{
+    text-decoration: none;
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+#imglink{
+    margin-right: 12px;
+}
+.links a{
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+.links a:hover{
+text-decoration: underline;
+color: black;
+}
+
+#FullSection{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ #FullSection .inputs{
+    border: 1px solid grey;
+    border-radius: 24px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    width: 600px;
+ }
+ #FullSection .inputs:hover{
+    box-shadow: 0 0 2px rgb(100, 100, 100);;
+ }
+
+ #FullSection .inputs input{
+    width: 575px;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+ }
+
+ #icon{
+    color: grey;
+ }
+
+ .buttons input{
+    margin: 10px;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 4px;
+    font-size: small;
+    color: rgb(63, 63, 63);
+    border:0.001px solid rgb(224, 224, 224);
+
+ }
+ .buttons input:hover{
+    color: rgb(23, 23, 23);
+ }
+
+
+.buttons #Onebutton{
+    margin-left: 255px;
+}
+
+.images{
+    position: absolute;
+    top: 5px;
+    margin:7px;
+    margin-left: 15px;
+}
+
+.Heading{
+    margin-left: 40px;
+}
+
+.mainadvsearch .firstrow, .rows{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: small;
+}
+
+#subheading{
+    width: 179px;
+}
+#tasks{
+    width:397px;
+    margin-left: 10px;
+}
+#inputsss,#inputsss input{
+    width:600px;
+}
+span{
+    font-weight: bold;
+}
+
+#Task,#Heading1{
+    font-size: medium;
+}
+
+.advbutton input{
+        margin-left: 689px;
+        background-color:#4d90fe;
+        color:#f6f6f6;
+        font-size: small;
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #8ab4f8;
+}
+.advbutton input:hover{
+    background-color: #8ab4f8;
+    border-color: #3079ed;
+}
+
+@media(max-width:800px){
+    #inputsss input{
+        width:300px;
+    } 
+    #FullSection .inputs{
+        width:300px;
+    }
+    .advbutton input{
+        margin-left: 40%;
+    }
+    .buttons #Onebutton{
+        margin-left:35%;
+    }
+    #tasks,#Task{
+        display: none;
+    }
+}
